@@ -11,6 +11,10 @@
     {
       "id": 3,
       "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
     }
   ],
   "words": [
@@ -19,7 +23,42 @@
       "day": 3,
       "eng": "book",
       "kor": "책",
-      "isDone": false
+      "isDone": true
+    },
+    {
+      "day": "1",
+      "eng": "green",
+      "kor": "녹색",
+      "isDone": false,
+      "id": 6
+    },
+    {
+      "day": "1",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false,
+      "id": 7
+    },
+    {
+      "day": "1",
+      "eng": "window",
+      "kor": "창문",
+      "isDone": false,
+      "id": 8
+    },
+    {
+      "day": "2",
+      "eng": "egg",
+      "kor": "계란",
+      "isDone": false,
+      "id": 9
+    },
+    {
+      "day": "4",
+      "eng": "head",
+      "kor": "머리",
+      "isDone": false,
+      "id": 10
     }
   ]
 }
