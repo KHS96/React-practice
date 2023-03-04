@@ -10,35 +10,35 @@
             "day" : 1,
             "eng" : "book",
             "kor" : "책",
-            "isDonw" : false
+            "isDone" : true
         },
         {
             "id" : 2,
             "day" : 1,
             "eng" : "apple",
             "kor" : "사과",
-            "isDonw" : false
+            "isDone" : false
         },
         {
             "id" : 3,
             "day" : 2,
             "eng" : "cart",
             "kor" : "장바구니",
-            "isDonw" : false
+            "isDone" : false
         },
         {
             "id" : 4,
             "day" : 2,
             "eng" : "car",
             "kor" : "자동차",
-            "isDonw" : false
+            "isDone" : false
         },
         {
             "id" : 5,
             "day" : 3,
             "eng" : "book",
             "kor" : "책",
-            "isDonw" : false
+            "isDone" : false
         }
     ]
 }
