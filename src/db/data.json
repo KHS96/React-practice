@@ -23,7 +23,7 @@
       "day": 3,
       "eng": "book",
       "kor": "책",
-      "isDone": true
+      "isDone": false
     },
     {
       "day": "1",
@@ -59,6 +59,13 @@
       "kor": "머리",
       "isDone": false,
       "id": 10
+    },
+    {
+      "day": "",
+      "eng": "",
+      "kor": "",
+      "isDone": false,
+      "id": 11
     }
   ]
 }
