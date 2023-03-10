@@ -1,0 +1,81 @@
+.login-header {
+  padding: 0 15px;
+  margin-top: 40px;
+}
+
+.login-header h1 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.greeting {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.greeting h2 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+.greeting p {
+  font-size: 0.9rem;
+}
+
+#login-input {
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+#login-input input {
+  border: 0;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+  font-size: 0.95rem;
+  font-weight: bold;
+  width: 100%;
+  outline: none;
+  padding: 2px;
+  height: 35px;
+  vertical-align: bottom;
+  display: inline;
+  margin-bottom: 30px;
+}
+
+#login-input input:last-child {
+  margin-bottom: 0px;
+}
+
+#login-input input::placeholder {
+  color: var(--color-black);
+  font-weight: normal;
+}
+
+#login-input input:focus {
+  border-bottom: 1.5px solid var(--color-light-green);
+}
+
+#login-input input:focus::placeholder {
+  position: relative;
+  top: -15px;
+  font-size: 70%;
+}
+
+#login-service {
+  text-align: center;
+}
+
+#login-service a:nth-child(2) {
+  border-left: 1px solid rgba(128, 128, 128, 0.381);
+  border-right: 1px solid rgba(128, 128, 128, 0.381);
+}
+
+#login-service a {
+  padding: 0 10px;
+  margin: 0;
+  color: var(--color-soft-black);
+  opacity: 0.9;
+}

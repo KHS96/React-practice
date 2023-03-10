@@ -1,0 +1,107 @@
+.gift-templates {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.gift-templates-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffc8ce;
+}
+
+.circle-2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fdab57;
+}
+
+.circle-3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fee265;
+}
+
+.circle-4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ff8a78;
+}
+
+.circle-5 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #b7de73;
+}
+
+.circle-6 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #9dd3ff;
+}
+
+.gift-templates-item p {
+  margin: 3px;
+}
+
+.hr {
+  margin: 0px 20px 10px 20px;
+  background-color: #e2e2e2;
+  height: 1px;
+  border: 0;
+}
+
+.to-gift {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.to-gift p {
+  font-weight: bold;
+}
+
+.phone-address {
+  color: #107d46;
+}
+
+.to-gift-input {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+#gift input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.gift-info {
+  margin: 30px 20px 80px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gift-info-char {
+  font-size: 19px;
+  margin: 7px 0px 0px 0px;
+}
+
+.gift-info-text {
+  font-size: 13px;
+  padding-left: 10px;
+}

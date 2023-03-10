@@ -1,0 +1,131 @@
+header {
+  background-color: var(--color-white);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 80px;
+}
+
+.header-top .menu-icon {
+  width: 35%;
+}
+
+.header-top .back-icon-class {
+  width: 35%;
+}
+
+.header-top h1 {
+  text-align: center;
+  font-size: 1.0rem;
+  width: 30%;
+}
+
+.header-top nav {
+  width: 35%;
+}
+
+.header-top img {
+  width: 20px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.header-top nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-top nav ul li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.header-top nav ul li:last-child {
+  margin-right: 0px;
+}
+
+.header-bottom {
+  box-shadow: 0 4px 4px -4px black;
+}
+
+.header-bottom nav ul {
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-bottom nav ul li {
+  list-style: none;
+  width: 25%;
+  margin: 0 4px;
+  padding: 15px 0px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6e6e6e;
+  border-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-white);
+}
+
+.header-bottom nav ul li a {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
+.header-bottom nav ul li:last-child {
+  margin-right: 0px;
+}
+
+.header-bottom nav ul li:first-child {
+  margin-left: 0px;
+}
+
+.header-bottom nav ul li.active {
+  color: black;
+  border-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-primary);
+}
+
+.header-sub nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: scroll;
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+.header-sub nav ul::-webkit-scrollbar {
+  display: none;
+}
+
+.header-sub nav ul li {
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 20px 15px 20px 15px;
+  font-size: 0.9rem;
+  color: #6e6e6e;
+}
+
+.header-sub nav ul li.active {
+  color: var(--color-primary);
+  font-weight: bold;
+}

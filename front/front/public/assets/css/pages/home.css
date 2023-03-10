@@ -1,0 +1,89 @@
+section#event-banner {
+  padding: 0px;
+}
+
+section h2{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.event-banner {
+  margin-top: 125px !important;
+}
+
+section .recommand-md-products{
+  padding-left: 5%;
+}
+
+section .recommand-product-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: scroll;
+}
+
+section .recommand-product-list::-webkit-scrollbar {
+  display: none;
+}
+
+section .recommand-product-list .recommand-product-item {
+  width: 200px;
+  height: 350px;
+  margin: 0px 14px;
+  padding: 0px;
+}
+
+section .recommand-product-list .recommand-product-item:first-child {
+  margin-left: 0px;
+}
+
+section .recommand-product-list .recommand-product-item:last-child {
+  margin-right: 0px;
+}
+
+section .recommand-product-list .recommand-product-item .recommand-product-item__img{
+  width: 100%;
+  height: auto;
+}
+
+section .recommand-product-list .recommand-product-item .recommand-product-item__img img{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.item-new {
+  font-size: 0.8rem;
+  color: #0db904;
+  font-style: italic;
+}
+
+.item-title {
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+.item-price span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#chunsik .chunsik-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#chunsik .chunsik-item img {
+  width: 25%;
+  height: auto;
+}
+
+#chunsik .chunsik-item .chunsik-item-info {
+  width: 70%;
+  margin-left: 5%;
+}

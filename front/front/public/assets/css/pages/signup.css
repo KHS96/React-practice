@@ -1,0 +1,371 @@
+.shadow-none {
+    box-shadow: none !important;
+}
+
+.signup-header {
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.signup-header p {
+    padding: 0;
+    padding-left: 25%;
+    margin: 0;
+}
+
+.page-num {
+    letter-spacing: -3.5px;
+    color: var(--color-gray-text);
+}
+
+.margin-top {
+    margin-top: 150px !important;
+}
+
+.greeting .signup-info {
+    font-weight: normal;
+    line-height: 35px;
+}
+
+header .section-agree-margin {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agree-input {
+    width: 100%;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.agree-input input {
+    margin: 10px 3px 7px 25px;
+    vertical-align: middle;
+}
+
+.agree-input>input[type=checkbox] {
+    transform: scale(1.2);
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-gray-button);
+}
+
+.middle-line {
+    border-top: 1px solid var(--color-gray-border);
+}
+
+input[type="checkbox"]:checked {
+    background: var(--color-light-green);
+    border: none;
+}
+
+.agree-input .advertising-info input[type=checkbox] {
+    border: 1px solid var(--color-gray-button);
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 15%;
+}
+
+.agree-input .advertising-info input[type=checkbox]:checked {
+    background-color: var(--color-light-green);
+    background-image: url(https://blog.kakaocdn.net/dn/t7a2D/btrhtVgLYmG/dUxzAkBy9hIZ4gHmyllQrk/img.png);
+}
+
+#agree-main a {
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 5px 0px 5px 20px;
+    float: right;
+}
+
+.agree-input #advertising-email {
+    margin-left: 50px;
+}
+
+.agree-input .arrow {
+    height: 0.8rem;
+    padding-right: 30px;
+    opacity: 0.5;
+}
+
+.agree-input p {
+    padding-left: 50px;
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--color-gray-text);
+}
+
+#identification-agree {
+    margin-top: 230px;
+}
+
+#identification-agree p {
+    padding-left: 25px;
+    display: inline-block;
+}
+
+
+#identification-agree .arrow {
+    height: 0.8rem;
+    padding-right: 30px;
+}
+
+#identification-agree a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.signup-hr {
+    margin: 20px 0px 0px 0px;
+}
+
+#identification-input {
+    padding: 10px 25px;
+}
+
+#identification-input p {
+    font-size: 0.8rem;
+}
+
+#identification-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.phonenumber-input {
+    display: flex;
+
+}
+
+#identification-input input:focus {
+    border-bottom: 1.5px solid var(--color-light-green);
+}
+
+#identification-input select {
+    appearance: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: sticky;
+    appearance: none;
+    height: 40px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    width: 30%;
+}
+
+#identification-input select option {
+    font-size: 0.8rem;
+}
+
+#identification-input p {
+    color: var(--color-gray-text);
+    margin-top: 0;
+    padding: 0 10px;
+}
+
+.request {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    color: var(--color-gray-text);
+}
+
+#id-password-input {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0 25px;
+}
+
+#id-password-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#id-password-input p {
+    font-size: 1.3rem;
+    color: var(--color-gray-text)
+}
+
+#id-password-input input:focus {
+    border-bottom: 1.5px solid var(--color-light-green);
+}
+
+
+#id-password-input select {
+    appearance: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: sticky;
+    appearance: none;
+    height: 40px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    width: 70%;
+    color: var(--color-gray-text);
+}
+
+#id-password-input select option {
+    font-size: 0.8rem;
+}
+
+.email-guideline {
+    margin: 0;
+    padding: 0 25px;
+    color: var(--color-gray-text);
+}
+
+.margin-top-zero {
+    margin-top: 0;
+}
+
+#email-input {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0 25px;
+    display: flex;
+    align-items: baseline;
+}
+
+#email-input select {
+    appearance: none;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: sticky;
+    appearance: none;
+    height: 40px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 5px 30px 5px 10px;
+    width: 70%;
+    color: var(--color-gray-text);
+}
+
+#email-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#email-input p {
+    font-size: 1.3rem;
+    color: var(--color-gray-text)
+}
+
+#email-input input:focus {
+    border-bottom: 1.5px solid var(--color-light-green);
+}
+
+
+#email-input select option {
+    font-size: 0.8rem;
+}
+
+.back-button {
+    width: 20px;
+    height: auto;
+    padding: 10px 7px;
+    opacity: 0.5;
+}
+
+#starbucks-logo {
+    width: 80px;
+}
+
+.submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top: 1px solid var(--color-gray-border);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+}
+
+.submit-container button {
+    width: 350px;
+    height: 40px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    background-color: var(--color-light-green);
+    color: var(--color-white);
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+.email-notice {
+    color: var(--color-gray-text);
+    margin: 0px;
+    padding: 0 20px;
+    font-size: 0.8rem;
+}
+
+.notice {
+    padding: 0 !important;
+}
+
+.nickname-notice {
+    color: var(--color-gray-text);
+    margin: 0px;
+    font-size: 0.8rem;
+}
+
+#nickname-input {
+    margin-top: 300px;
+    padding: 0px 20px;
+}
+
+#nickname-input input {
+    border: 0;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.381);
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    height: 40px;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 15px;
+}
